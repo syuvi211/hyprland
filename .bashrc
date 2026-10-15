@@ -9,4 +9,4 @@
 # alias grep='grep --color=auto'
 # PS1='[\u@\h \W]\$ '
 fastfetch
-alias clean='pacman -Qdtq | syca pacman -Rns -'
+alias clean='pacman -Qdtq | sudo pacman -Rns -'
